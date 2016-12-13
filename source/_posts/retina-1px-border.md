@@ -23,7 +23,7 @@ hairlines”（retina 极细的线）：在retina屏上仅仅显示1物理像素
 
 他们曾介绍到 iOS 8 和 OS X Yosemite 即将支持 0.5px 的边框：
 
-![0.5px边框](http://static.lemonss.net/16-12-11/34074344-file_1481428227654_2322.jpg)
+![0.5px边框](/assets/blogImg/retina-1px-border01.jpg)
 
 额的神呐！so easy! 果真如此吗？
 
@@ -69,7 +69,7 @@ div {
 
 准备一张符合你要求的border-image：
 
-![底部边框](http://static.lemonss.net/16-12-11/70612825-file_1481430398313_509f.jpg)
+![底部边框](/assets/blogImg/retina-1px-border02.jpg)
 
 样式设置：
 ```css
@@ -81,7 +81,7 @@ div {
 ```
 上文是把border设置在边框的底部，所以使用的图片是2px高，上部的1px颜色为透明，下部的1px使用视觉规定的border的颜色。如果边框底部和顶部同时需要border，可以使用下面的border-image：
 
-![上下边框](http://static.lemonss.net/16-12-11/29865783-file_1481430546113_fcda.png)
+![上下边框](/assets/blogImg/retina-1px-border03.png)
 
 样式设置：
 
@@ -264,12 +264,8 @@ if(window.devicePixelRatio && devicePixelRatio >= 2){
 **缺点：**
 - 对于已经使用伪类的元素(例如clearfix)，可能需要多层嵌套
  
-参考：
+#### 参考：
 - [《1px on retina》](http://efe.baidu.com/blog/1px-on-retina/)
 - [《再谈mobile web retina 下 1px 边框解决方案》](http://www.ghugo.com/css-retina-hairline/)
 - [《Retina屏的移动设备如何实现真正1px的线？》](http://jinlong.github.io/2015/05/24/css-retina-hairlines/)
 - [《在retina屏中实现1px border效果》](http://imweb.io/topic/55e3d402771670e207a16bd1)
-
-
-
-

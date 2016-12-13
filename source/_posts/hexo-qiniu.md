@@ -12,7 +12,7 @@ hexo博客弄好了，写博客遇到了一个最大的问题，就是图片的�
 
 最后我发现了一个神器——极简图床
 <!-- more -->
-![极简图床](http://static.lemonss.net/public/16-12-7/25594784.jpg)
+![极简图床](/assets/blogImg/hexo-qiniu01.jpg)
 
 下面就来讲一讲如何配置七牛以及极简图床：
 
@@ -24,6 +24,6 @@ hexo博客弄好了，写博客遇到了一个最大的问题，就是图片的�
 
 极简图床对于七牛的配置也非常简单，只需要填入一些参数即可
 
-![极简图床+七牛](http://static.lemonss.net/public/16-12-7/62640372.jpg)
+![极简图床+七牛](/assets/blogImg/hexo-qiniu02.jpg)
 
 并且极简图床支持markdown语法的复制，可以一步到位，几乎无伤~真是超赞。
